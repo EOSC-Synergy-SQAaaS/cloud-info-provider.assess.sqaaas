@@ -15,48 +15,48 @@ sqa_criteria:
     repos:
       github.com/EGI-Federation/cloud-info-provider git:
         commands:
-        - /usr/bin/env sh .sqa/script.scummy-cobalt-otter.sh
-        container: qc.acc_frumpy-xanthic-dogfish
+        - /usr/bin/env sh .sqa/script.homey-olive-uakari.sh
+        container: qc.acc_gummy-flax-centipede
   QC.Doc:
     repos:
       github.com/EGI-Federation/cloud-info-provider find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-linen-lizard.sh
-        container: qc.doc_squirrely-wheat-sheepdog
+        - /usr/bin/env sh .sqa/script.clammy-cerulean-ant.sh
+        container: qc.doc_beady-wheat-impala
       github.com/EGI-Federation/cloud-info-provider git:
         commands:
-        - /usr/bin/env sh .sqa/script.nerdy-salmon-vulture.sh
-        container: qc.doc_snippy-firebrick-terrier
+        - /usr/bin/env sh .sqa/script.seedy-viridian-booby.sh
+        container: qc.doc_bumpy-harlequin-oriole
       github.com/EGI-Federation/cloud-info-provider markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.ready-brown-fossa.sh
-        container: qc.doc_flabby-sepia-lynx
+        - /usr/bin/env sh .sqa/script.cranky-khaki-opossum.sh
+        container: qc.doc_smelly-chestnut-gorilla
   QC.Lic:
     repos:
       github.com/EGI-Federation/cloud-info-provider licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.snazzy-goldenrod-javanese.sh
-        container: qc.lic_homey-gamboge-akita
+        - /usr/bin/env sh .sqa/script.greasy-corn-dachshund.sh
+        container: qc.lic_squirrely-alizarin-blue
   QC.Sec:
     repos:
       github.com/EGI-Federation/cloud-info-provider bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.woozy-mauve-terrier.sh
-        container: qc.sec_woozy-taupe-rhinoceros
+        - /usr/bin/env sh .sqa/script.skinny-mauve-manatee.sh
+        container: qc.sec_hazy-flax-newfoundland
   QC.Sty:
     repos:
       github.com/EGI-Federation/cloud-info-provider flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.grumpy-tan-otter.sh
-        container: qc.sty_sloppy-black-insect
+        - /usr/bin/env sh .sqa/script.messy-ruby-tzu.sh
+        container: qc.sty_surly-corn-jellyfish
       github.com/EGI-Federation/cloud-info-provider jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.scaly-linen-elephant.sh
-        container: qc.sty_homey-harlequin-mastiff
+        - /usr/bin/env sh .sqa/script.lousy-gamboge-squirt.sh
+        container: qc.sty_tasty-heliotrope-goose
   QC.Ver:
     repos:
       github.com/EGI-Federation/cloud-info-provider get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.skimpy-tan-armadillo.sh
-        container: qc.ver_lousy-teal-dane
+        - /usr/bin/env sh .sqa/script.skinny-lavender-bloodhound.sh
+        container: qc.ver_flimsy-silver-ray
 timeout: 1800
